@@ -10,7 +10,7 @@ jobs:
       - image: cimg/ruby:2.6.8
         auth:
           username: nirmalgaurav16
-          passsword: NimitdasV@n1
+          password: NimitdasV@n1
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
@@ -22,7 +22,7 @@ jobs:
       - image: cimg/ruby:3.0.2
         auth:
           username: nirmalgaurav16
-          passsword: NimitdasV@n1
+          password: NimitdasV@n1
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
