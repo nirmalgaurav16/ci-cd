@@ -9,9 +9,9 @@ jobs:
 
     docker:
       - image: cimg/ruby:2.6.8
-      auth
-        username: nirmalgaurav16
-        passsword: NimitdasV@n1
+        auth
+          username: nirmalgaurav16
+          passsword: NimitdasV@n1
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
