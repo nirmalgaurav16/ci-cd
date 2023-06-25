@@ -15,7 +15,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
-      - run: "A first hello"
+      - run: echo "this is first hello"
       - run: sleep 25
   two:
     docker:
@@ -27,7 +27,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
-      - run: "A second hello"
+      - run: echo "this is second hello"
       - run: sleep 15
 
 # Orchestrate jobs using workflows
